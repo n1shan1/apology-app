@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      animation: {
+        bounce: "bounce 1.5s infinite",
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",

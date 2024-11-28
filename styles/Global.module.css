@@ -1,0 +1,67 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  text-align: center;
+  background: rgb(255,171,251);
+background: radial-gradient(circle, rgba(255,171,251,1) 0%, rgba(252,70,87,1) 100%);
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.puppy-eyes{
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.5rem;
+  color: #1f0b12;
+  line-height: 1.6;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 15px;
+  padding: 30px;
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+
+.card p {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.5rem;
+  color: #f28fb0;
+  line-height: 1.6;
+}
+
+.finalMessage {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.8rem;
+  color: #f28fb0;
+  margin: 20px 0;
+}
+
+.collageImage {
+  border-radius: 15px;
+  margin-top: 10px;
+}
+/* Centering image container */
+.imageContainer {
+  display: flex;
+  justify-content: center; /* Centers the content horizontally */
+  align-items: center;     /* Centers the content vertically */
+  margin-top: 20px;        /* Space between message and image */
+}
+
+/* Center the image itself */
+.image {
+  border-radius: 15px;
+  max-width: 100%;          /* Ensures the image is responsive */
+  height: auto;             /* Maintain aspect ratio */
+  display: block;           /* Ensure block-level element */
+  margin-left: auto;        /* Center horizontally */
+  margin-right: auto;       /* Center horizontally */
+}

@@ -1,0 +1,32 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgb(255, 255, 255);
+  border-radius: 15px;
+  padding: 30px;
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+
+.card p {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.5rem;
+  color: #190008;
+  line-height: 1.6;
+}
+
+.imageContainer {
+  margin-top: 25px; /* Space between message and image */
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  border-radius: 15px;
+  max-width: 100%;
+  height: auto;
+}
